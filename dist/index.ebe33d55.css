@@ -7,7 +7,7 @@
 .navbar .right {
   flex-direction: row-reverse;
   align-items: center;
-  gap: 15px;
+  gap: 55px;
   display: flex;
 }
 
@@ -28,6 +28,26 @@
 
 .navbar .right .navbar__Grouping .icon__down {
   font-size: 12px;
+}
+
+.navbar .right .navbar__Search {
+  position: relative;
+}
+
+.navbar .right .navbar__Search .icon__search {
+  color: gray;
+  font-size: 13px;
+  position: absolute;
+  top: 14px;
+  right: 10px;
+}
+
+.navbar .right .navbar__Search .search {
+  background-color: #d3d3d3;
+  border: 0;
+  border-radius: 3px;
+  outline: 0;
+  padding: 10px 40px 10px 30px;
 }
 
 /*# sourceMappingURL=index.ebe33d55.css.map */
