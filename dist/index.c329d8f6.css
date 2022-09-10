@@ -29,4 +29,52 @@
   display: flex;
 }
 
+.main__body .main .main__card .cardList {
+  width: 100%;
+  border-top: 1px solid #000;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  padding: 10px;
+  display: grid;
+}
+
+.main__body .main .main__card .cardList .card {
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+}
+
+.main__body .main .main__card .cardList .card .card__body {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 5px;
+  display: flex;
+}
+
+.main__body .main .main__card .cardList .card .card__body figure {
+  margin: 0;
+  padding: 0;
+}
+
+.main__body .main .main__card .cardList .card .card__body figure img {
+  width: 123px;
+  height: 123px;
+  border-radius: 5px;
+}
+
+.main__body .main .main__card .cardList .card .card__details {
+  flex-direction: column;
+  display: flex;
+}
+
+.main__body .main .main__card .cardList .card .card__details .card__title {
+  color: #000;
+  flex-grow: 1;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.main__body .main .main__card .cardList .card .card__details .card__price, .main__body .main .main__card .cardList .card .card__details .card__author {
+  color: gray;
+}
+
 /*# sourceMappingURL=index.c329d8f6.css.map */
