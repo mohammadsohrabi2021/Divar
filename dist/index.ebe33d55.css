@@ -69,4 +69,10 @@
   font-weight: 600;
 }
 
+.navbar .left .navbar__chat {
+  gap: 10px;
+  margin-left: 15px;
+  display: flex;
+}
+
 /*# sourceMappingURL=index.ebe33d55.css.map */
