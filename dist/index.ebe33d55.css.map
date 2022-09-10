@@ -1,1 +1,1 @@
-{"mappings":"","sources":["src/components/styles/header.scss"],"sourcesContent":[null],"names":[],"version":3,"file":"index.ebe33d55.css.map","sourceRoot":"/__parcel_source_root/"}
+{"mappings":"AAEQ","sources":["src/components/styles/header.scss"],"sourcesContent":[".navbar{\r\n    .navbar__logo{\r\n        img{\r\n            width: 55px;\r\n        }\r\n    }\r\n}"],"names":[],"version":3,"file":"index.ebe33d55.css.map","sourceRoot":"/__parcel_source_root/"}

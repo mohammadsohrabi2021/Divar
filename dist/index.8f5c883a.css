@@ -1,3 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+body {
+  justify-content: center;
+  display: flex;
+}
+
+.container {
+  width: 90%;
+  display: flex;
+}
 
 /*# sourceMappingURL=index.8f5c883a.css.map */
