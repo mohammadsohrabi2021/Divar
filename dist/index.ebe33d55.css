@@ -50,4 +50,21 @@
   padding: 10px 40px 10px 30px;
 }
 
+.navbar .left {
+  width: 100%;
+  flex-direction: row-reverse;
+  display: flex;
+}
+
+.navbar .left .navbar__btn button {
+  cursor: pointer;
+  color: #fff;
+  background-color: red;
+  border: 0;
+  border-radius: 3px;
+  padding: 10px 23px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
 /*# sourceMappingURL=index.ebe33d55.css.map */
