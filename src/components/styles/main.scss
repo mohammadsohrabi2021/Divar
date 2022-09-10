@@ -21,6 +21,7 @@
     .main__card {
       display: flex;
       width: 79%;
+      z-index: 1;
       margin-top: 40px;
       .discription{
         position: absolute;
