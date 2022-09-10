@@ -1,5 +1,23 @@
-.navbar .navbar__logo img {
+.navbar {
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.navbar .right {
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 15px;
+  display: flex;
+}
+
+.navbar .right .navbar__logo img {
   width: 55px;
+}
+
+.navbar .right .navbar__location {
+  gap: 10px;
+  display: flex;
 }
 
 /*# sourceMappingURL=index.ebe33d55.css.map */

@@ -1,7 +1,21 @@
 .navbar{
-    .navbar__logo{
-        img{
-            width: 55px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    .right{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        gap: 15px;
+        .navbar__logo{
+            img{
+                width: 55px;
+            }
+        }
+        .navbar__location{
+            display: flex;
+            gap: 10px;
         }
     }
+   
 }
