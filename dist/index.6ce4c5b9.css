@@ -1,0 +1,46 @@
+.card {
+  border: 5px solid #d3d3d3;
+  border-radius: 5px;
+}
+
+.card .card__body {
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 15px;
+  display: flex;
+}
+
+.card .card__body figure {
+  margin: 0;
+  padding: 0;
+}
+
+.card .card__body figure img {
+  width: 136px;
+  height: 136px;
+  border-radius: 5px;
+}
+
+.card .card__details {
+  flex-direction: column;
+  display: flex;
+}
+
+.card .card__details .card__title {
+  color: #232222;
+  flex-grow: 1;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.card .card__details .card__price, .card .card__details .card__author {
+  color: gray;
+}
+
+.card__list {
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 15px;
+  display: grid;
+}
+
+/*# sourceMappingURL=index.6ce4c5b9.css.map */
