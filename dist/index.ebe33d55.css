@@ -21,6 +21,7 @@
 }
 
 .navbar .right .navbar__Grouping {
+  width: 70px;
   align-items: center;
   gap: 13px;
   display: flex;
@@ -43,7 +44,7 @@
 }
 
 .navbar .right .navbar__Search .search {
-  width: 280px;
+  width: 260px;
   background-color: #d3d3d3;
   border: 0;
   border-radius: 3px;
