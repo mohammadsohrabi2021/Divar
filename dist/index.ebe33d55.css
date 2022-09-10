@@ -53,6 +53,8 @@
 .navbar .left {
   width: 100%;
   flex-direction: row-reverse;
+  align-items: center;
+  gap: 27px;
   display: flex;
 }
 
