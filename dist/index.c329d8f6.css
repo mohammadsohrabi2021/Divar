@@ -71,6 +71,7 @@
 
 .main__body .main .main__card .cardList .card .card__details {
   flex-direction: column;
+  line-height: 1.5;
   display: flex;
 }
 
