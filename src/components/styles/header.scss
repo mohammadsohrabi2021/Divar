@@ -16,6 +16,14 @@
             display: flex;
             gap: 10px;
         }
+        .navbar__Grouping{
+            display: flex;
+            align-items: center;
+            gap: 13px;
+            .icon__down{
+                font-size: 12px;
+            }
+        }
     }
    
 }

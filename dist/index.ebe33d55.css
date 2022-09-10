@@ -20,4 +20,14 @@
   display: flex;
 }
 
+.navbar .right .navbar__Grouping {
+  align-items: center;
+  gap: 13px;
+  display: flex;
+}
+
+.navbar .right .navbar__Grouping .icon__down {
+  font-size: 12px;
+}
+
 /*# sourceMappingURL=index.ebe33d55.css.map */
