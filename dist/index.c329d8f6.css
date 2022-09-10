@@ -26,13 +26,13 @@
 
 .main__body .main .main__card {
   width: 79%;
-  margin-top: 100px;
+  margin-top: 40px;
   display: flex;
 }
 
 .main__body .main .main__card .discription {
   position: absolute;
-  top: 70px;
+  top: 10px;
   left: 0;
 }
 
