@@ -6,6 +6,7 @@
 .main__body .main {
   width: 100%;
   flex-direction: row-reverse;
+  margin-top: 100px;
   display: flex;
   position: relative;
 }
