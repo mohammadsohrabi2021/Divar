@@ -30,6 +30,12 @@
   display: flex;
 }
 
+.main__body .main .main__card .discription {
+  position: absolute;
+  top: 70px;
+  left: 0;
+}
+
 .main__body .main .main__card .cardList {
   width: 100%;
   border-top: 1px solid #000;

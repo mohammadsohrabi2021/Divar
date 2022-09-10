@@ -22,6 +22,11 @@
       display: flex;
       width: 79%;
       margin-top: 100px;
+      .discription{
+        position: absolute;
+        top: 70px;
+        left: 0px;
+      }
       .cardList {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
