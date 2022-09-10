@@ -1,3 +1,31 @@
+.main__body {
+  justify-content: center;
+  display: flex;
+}
 
+.main__body .main {
+  width: 100%;
+  flex-direction: row-reverse;
+  display: flex;
+  position: relative;
+}
+
+.main__body .main .main__sidebar {
+  width: 21%;
+  line-height: 2.8;
+  position: fixed;
+  right: 30px;
+}
+
+.main__body .main .main__sidebar .menu__sidebar {
+  cursor: pointer;
+  color: gray;
+  list-style-type: none;
+}
+
+.main__body .main .main__card {
+  width: 79%;
+  display: flex;
+}
 
 /*# sourceMappingURL=index.c329d8f6.css.map */
