@@ -1,41 +1,47 @@
-.navbar {
+.header {
+  height: 64px;
+  width: 100%;
+  box-shadow: 0 1px 2px #0000001f;
+}
+
+.header .navbar {
   width: 100%;
   align-items: center;
   display: flex;
 }
 
-.navbar .right {
+.header .navbar .right {
   flex-direction: row-reverse;
   align-items: center;
   gap: 48px;
   display: flex;
 }
 
-.navbar .right .navbar__logo img {
+.header .navbar .right .navbar__logo img {
   width: 55px;
 }
 
-.navbar .right .navbar__location {
+.header .navbar .right .navbar__location {
   gap: 10px;
   display: flex;
 }
 
-.navbar .right .navbar__Grouping {
+.header .navbar .right .navbar__Grouping {
   width: 70px;
   align-items: center;
   gap: 13px;
   display: flex;
 }
 
-.navbar .right .navbar__Grouping .icon__down {
+.header .navbar .right .navbar__Grouping .icon__down {
   font-size: 12px;
 }
 
-.navbar .right .navbar__Search {
+.header .navbar .right .navbar__Search {
   position: relative;
 }
 
-.navbar .right .navbar__Search .icon__search {
+.header .navbar .right .navbar__Search .icon__search {
   color: gray;
   font-size: 13px;
   position: absolute;
@@ -43,7 +49,7 @@
   right: 10px;
 }
 
-.navbar .right .navbar__Search .search {
+.header .navbar .right .navbar__Search .search {
   width: 260px;
   background-color: #d3d3d3;
   border: 0;
@@ -52,7 +58,7 @@
   padding: 10px 40px 10px 0;
 }
 
-.navbar .left {
+.header .navbar .left {
   width: 100%;
   flex-direction: row-reverse;
   align-items: center;
@@ -60,7 +66,7 @@
   display: flex;
 }
 
-.navbar .left .navbar__btn button {
+.header .navbar .left .navbar__btn button {
   cursor: pointer;
   color: #fff;
   background-color: red;
@@ -71,13 +77,13 @@
   font-weight: 600;
 }
 
-.navbar .left .navbar__chat {
+.header .navbar .left .navbar__chat {
   gap: 10px;
   margin: 0 15px;
   display: flex;
 }
 
-.navbar .left .navbar__profile {
+.header .navbar .left .navbar__profile {
   gap: 10px;
   display: flex;
 }
