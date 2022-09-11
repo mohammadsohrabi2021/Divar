@@ -45,12 +45,12 @@
   width: 79%;
   z-index: 1;
   margin-top: 40px;
+  font-size: 12px;
   display: flex;
 }
 
 .main__body .main .main__card .discription {
   color: #989898;
-  font-size: 12px;
   position: absolute;
   top: 10px;
   left: 0;
@@ -91,14 +91,14 @@
 
 .main__body .main .main__card .cardList .card .card__details {
   flex-direction: column;
-  line-height: 1.5;
+  line-height: 1.8;
   display: flex;
 }
 
 .main__body .main .main__card .cardList .card .card__details .card__title {
   color: #000;
   flex-grow: 1;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
 }
 
