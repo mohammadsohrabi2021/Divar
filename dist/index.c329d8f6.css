@@ -4,6 +4,7 @@
 }
 
 .main__body .main {
+  color: #000000de;
   width: 100%;
   flex-direction: row-reverse;
   margin-top: 100px;
@@ -20,8 +21,12 @@
 
 .main__body .main .main__sidebar .menu__sidebar {
   cursor: pointer;
-  color: gray;
+  color: #0000008f;
   list-style-type: none;
+}
+
+.main__body .main .main__sidebar .menu__sidebar li:hover {
+  color: #000000de;
 }
 
 .main__body .main .main__card {

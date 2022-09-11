@@ -1,0 +1,1 @@
+{"mappings":"","sources":["src/components/styles/Variables.scss"],"sourcesContent":["$text-dark: #000000;\r\n$text-secondary: gray;\r\n$text-danger:#a62626;\r\n$text-gray:#f5f5f5;\r\n$text-gray80:#989898;\r\n$tect-muted:#aaaaaa;\r\n$text-gray50:#747474;\r\n$text-gray40:#717171;"],"names":[],"version":3,"file":"index.70766c5b.css.map","sourceRoot":"/__parcel_source_root/"}

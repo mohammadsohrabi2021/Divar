@@ -2,6 +2,7 @@
   height: 64px;
   width: 100%;
   z-index: 99;
+  color: #0000008f;
   background-color: #fff;
   position: fixed;
   box-shadow: 0 1px 2px #0000001f;
@@ -34,26 +35,23 @@
 
 .header .navbar .right .navbar__location {
   cursor: pointer;
+  background-color: #eecccc4d;
   border-radius: 2px;
   gap: 13px;
-  padding: 7px 15px;
+  padding: 11px 15px;
   transition: all .5s;
   display: flex;
 }
 
-.header .navbar .right .navbar__location:hover {
-  background-color: red;
-}
-
 .header .navbar .right .navbar__Grouping {
   cursor: pointer;
-  width: 80px;
+  width: 90px;
   border-radius: 2px;
   justify-content: center;
   align-items: center;
   gap: 13px;
   margin: 10px 30px 10px 10px;
-  padding: 7px 0;
+  padding: 11px 0;
   transition: all .5s;
   display: flex;
 }
@@ -63,7 +61,8 @@
 }
 
 .header .navbar .right .navbar__Grouping:hover {
-  background-color: red;
+  color: #000;
+  background-color: #eecccc4d;
 }
 
 .header .navbar .right .navbar__Search {
@@ -71,20 +70,20 @@
 }
 
 .header .navbar .right .navbar__Search .icon__search {
-  color: gray;
   font-size: 13px;
   position: absolute;
-  top: 14px;
-  right: 10px;
+  top: 12px;
+  right: 12px;
 }
 
 .header .navbar .right .navbar__Search .search {
-  width: 36vw;
-  background-color: #d3d3d3;
+  width: 35vw;
+  background-color: #eecccc4d;
   border: 0;
   border-radius: 3px;
   outline: 0;
-  padding: 10px 40px 10px 0;
+  padding: 10px 35px 10px 0;
+  font-size: 17px;
 }
 
 .header .navbar .left {
@@ -98,7 +97,7 @@
 .header .navbar .left .navbar__btn button {
   cursor: pointer;
   color: #fff;
-  background-color: red;
+  background-color: #a62626;
   border: 0;
   border-radius: 3px;
   padding: 10px 23px;
@@ -108,7 +107,7 @@
 }
 
 .header .navbar .left .navbar__btn button:hover {
-  background-color: #00f;
+  background-color: #a62626e6;
 }
 
 .header .navbar .left .navbar__Support {
@@ -119,7 +118,8 @@
 }
 
 .header .navbar .left .navbar__Support:hover {
-  background-color: red;
+  color: #000;
+  background-color: #eecccc4d;
 }
 
 .header .navbar .left .navbar__chat {
@@ -132,7 +132,8 @@
 }
 
 .header .navbar .left .navbar__chat:hover {
-  background-color: red;
+  color: #000;
+  background-color: #eecccc4d;
 }
 
 .header .navbar .left .navbar__profile {
@@ -145,7 +146,8 @@
 }
 
 .header .navbar .left .navbar__profile:hover {
-  background-color: red;
+  color: #000;
+  background-color: #eecccc4d;
 }
 
 /*# sourceMappingURL=index.ebe33d55.css.map */

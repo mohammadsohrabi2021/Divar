@@ -5,6 +5,7 @@
     position: fixed;
     background-color: #fff;
     z-index: 99;
+    color: rgba(0,0,0,.56);
     .navbar{
     width: 100%;
     display: flex;
@@ -28,19 +29,17 @@
             display: flex;
             gap: 13px;
             border-radius: 2px;
-            padding: 7px 15px;
+            padding: 11px 15px;
             transition: all 0.5s;
-        }
-        .navbar__location:hover{
-            background-color: red; 
+            background-color: rgba(238, 204, 204, 0.3);
         }
         .navbar__Grouping{
             cursor: pointer;
             transition: all 0.5s;
-            padding: 7px 0;
+            padding: 11px 0;
             margin: 10px;
             border-radius: 2px;
-            width: 80px;
+            width: 90px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -51,24 +50,24 @@
             }
         }
         .navbar__Grouping:hover{
-            background-color: red;
-
+            background-color: rgba(238, 204, 204, 0.3);
+            color: #000;
         }
         .navbar__Search{
             position: relative;
             .icon__search{
                 position: absolute;
-                top: 14px;
-                right: 10px;
+                top: 12px;
+                right:12px;
                 font-size: 13px;
-                color: gray;
             }
             .search{
-                padding: 10px 40px 10px 0;
-                width: 36vw;
+                padding: 10px 35px 10px 0;
+                font-size: 17px;
+                width: 35vw;
                 outline: 0;
                 border: 0;
-                background-color: lightgray;
+                background-color: rgba(238, 204, 204, 0.3);
                 border-radius: 3px;
             }
         }
@@ -79,8 +78,6 @@
         flex-direction: row-reverse;
         align-items: center;
         gap: 10px;
-        // padding: 10px 20px 10px 0;
-        // border-radius: 3px;
         .navbar__btn{
            button{
             transition: all 0.5s;
@@ -88,13 +85,13 @@
             padding: 10px 23px;
             border: 0;
             border-radius: 3px;
-            background-color: red;
+            background-color: #a62626;
             color: #fff;
             font-weight: 600;
             font-size: 16px;
            }
            button:hover{
-            background-color: blue;
+            background-color: rgba(166, 38, 38,0.9);
            }
         }
         .navbar__Support{
@@ -104,7 +101,8 @@
             border-radius: 3px;
         }
         .navbar__Support:hover{
-            background-color: red;
+            background-color: rgba(238, 204, 204, 0.3);
+            color: #000;
         }
         .navbar__chat{
             transition: all 0.5s;
@@ -115,7 +113,8 @@
             border-radius: 3px;
         }
         .navbar__chat:hover{
-            background-color: red;
+            background-color: rgba(238, 204, 204, 0.3);
+            color: #000;
         }
         .navbar__profile{
             transition: all 0.5s;
@@ -126,7 +125,8 @@
             border-radius: 3px;
         }
         .navbar__profile:hover{
-            background-color: red;
+            background-color: rgba(238, 204, 204, 0.3);
+            color: #000;
         }
       
     }
