@@ -18,10 +18,12 @@
 }
 
 .main__body .main .main__sidebar {
+  max-height: 100%;
   width: 21%;
   line-height: 2.8;
   position: fixed;
   right: 15px;
+  overflow-y: scroll;
 }
 
 .main__body .main .main__sidebar .menu__sidebar {
@@ -39,6 +41,34 @@
 
 .main__body .main .main__sidebar .menu__sidebar li:hover {
   color: #000000de;
+}
+
+.main__body .main .main__sidebar .price__range {
+  width: 90%;
+  border-top: 1px solid #d2c7c7;
+  border-bottom: 1px solid #d2c7c7;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  padding: 5px 0;
+  display: flex;
+}
+
+.main__body .main .main__sidebar .price__range .icon__down {
+  color: #989898;
+}
+
+.main__body .main .main__sidebar .Ad__status {
+  width: 90%;
+  border-bottom: 1px solid #d2c7c7;
+  align-items: center;
+  gap: 15px;
+  padding: 5px 0;
+  display: flex;
+}
+
+.main__body .main .main__sidebar .Ad__status .icon__down {
+  color: #989898;
 }
 
 .main__body .main .main__card {

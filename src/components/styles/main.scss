@@ -10,6 +10,8 @@
     position: relative;
     margin-top: 90px;
     .main__sidebar {
+      max-height: 100%;
+      overflow-y: scroll;
       width: 21%;
       line-height: 2.8;
       position: fixed;
@@ -27,6 +29,30 @@
       }
       .menu__sidebar li:hover{
         color: Variables.$bg-hover-menu;
+      }
+      .price__range{
+        margin-top: 20px;
+        padding: 5px 0;
+        border-top: 1px solid #d2c7c7;
+        border-bottom: 1px solid #d2c7c7;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        .icon__down{
+          color: Variables.$text-gray80;
+        }
+      }
+      .Ad__status{
+        padding: 5px 0;
+        border-bottom: 1px solid #d2c7c7;
+        width: 90%;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        .icon__down{
+          color: Variables.$text-gray80;
+        }
       }
     }
     .main__card {
