@@ -6,7 +6,6 @@
     background-color: #fff;
     z-index: 99;
     .navbar{
-    cursor: pointer;
     width: 100%;
     display: flex;
     align-items: center;
@@ -16,7 +15,6 @@
         flex-direction: row-reverse;
         .navbar__logo{
             margin-left: 5px;
-            cursor: context-menu;
             img{
                 width: 45px;
             }
@@ -26,11 +24,13 @@
             rotate: (90deg);
         }
         .navbar__location{
+            cursor: pointer;
             display: flex;
             gap: 13px;
             margin: 0 15px;
         }
         .navbar__Grouping{
+            cursor: pointer;
             padding: 7px 0;
             margin: 10px;
             border-radius: 2px;
@@ -75,6 +75,7 @@
         gap: 27px;
         .navbar__btn{
            button{
+            cursor: pointer;
             padding: 10px 23px;
             border: 0;
             border-radius: 3px;
@@ -84,14 +85,19 @@
             font-size: 16px;
            }
         }
+        .navbar__Support{
+            cursor: pointer;
+        }
         .navbar__chat{
             display: flex;
             gap: 10px;
             margin:0 15px;
+            cursor: pointer;
         }
         .navbar__profile{
             display: flex;
             gap: 10px;
+            cursor: pointer;
         }
       
     }
