@@ -5,13 +5,14 @@
 
 .main__body {
   justify-content: center;
+  font-size: 13px;
   display: flex;
 }
 
 .main__body .main {
   width: 100%;
   flex-direction: row-reverse;
-  margin-top: 100px;
+  margin-top: 90px;
   display: flex;
   position: relative;
 }
@@ -29,6 +30,13 @@
   list-style-type: none;
 }
 
+.main__body .main .main__sidebar .menu__sidebar .item {
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  display: flex;
+}
+
 .main__body .main .main__sidebar .menu__sidebar li:hover {
   color: #000000de;
 }
@@ -41,6 +49,8 @@
 }
 
 .main__body .main .main__card .discription {
+  color: #989898;
+  font-size: 12px;
   position: absolute;
   top: 10px;
   left: 0;
@@ -48,10 +58,10 @@
 
 .main__body .main .main__card .cardList {
   width: 100%;
-  border-top: 1px solid #000;
+  border-top: 1px solid #ebd4d4;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px;
-  padding: 10px;
+  padding: 10px 0;
   display: grid;
 }
 

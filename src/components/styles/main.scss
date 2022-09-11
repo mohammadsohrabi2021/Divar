@@ -1,5 +1,6 @@
 @use 'Variables';
 .main__body {
+  font-size: 13px;
   display: flex;
   justify-content: center;
   .main {
@@ -7,7 +8,7 @@
     display: flex;
     flex-direction: row-reverse;
     position: relative;
-    margin-top: 100px;
+    margin-top: 90px;
     .main__sidebar {
       width: 21%;
       line-height: 2.8;
@@ -17,6 +18,12 @@
         list-style-type: none;
         cursor: pointer;
         color: Variables.$text-dark;
+        .item{
+          display: flex;
+          align-items:center;
+          gap: 10px;
+          font-size: 15px;
+        }
       }
       .menu__sidebar li:hover{
         color: Variables.$bg-hover-menu;
@@ -31,14 +38,16 @@
         position: absolute;
         top: 10px;
         left: 0px;
+        color: Variables.$text-gray80;
+        font-size: 12px;
       }
       .cardList {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
         width: 100%;
-        border-top: 1px solid black;
-        padding: 10px;
+        border-top: 1px solid #ebd4d4;
+        padding: 10px 0;
         .card {
           cursor: pointer;
           border: {
