@@ -6,6 +6,7 @@
     background-color: #fff;
     z-index: 99;
     .navbar{
+    cursor: pointer;
     width: 100%;
     display: flex;
     align-items: center;
@@ -15,6 +16,7 @@
         flex-direction: row-reverse;
         gap:35px;
         .navbar__logo{
+            cursor: context-menu;
             img{
                 width: 55px;
             }
@@ -61,7 +63,6 @@
            button{
             padding: 10px 23px;
             border: 0;
-            cursor: pointer;
             border-radius: 3px;
             background-color: red;
             color: #fff;
