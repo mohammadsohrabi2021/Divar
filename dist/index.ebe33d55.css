@@ -22,16 +22,21 @@
 
 .header .navbar .right .navbar__logo {
   cursor: context-menu;
-  margin-left: 15px;
+  margin-left: 5px;
 }
 
 .header .navbar .right .navbar__logo img {
   width: 45px;
 }
 
+.header .navbar .right .border {
+  width: 25px;
+  rotate: 90deg;
+}
+
 .header .navbar .right .navbar__location {
   gap: 13px;
-  margin: 0 28px;
+  margin: 0 15px;
   display: flex;
 }
 
@@ -41,8 +46,7 @@
   justify-content: center;
   align-items: center;
   gap: 13px;
-  margin-left: 10px;
-  margin-right: 20px;
+  margin: 10px 30px 10px 10px;
   padding: 7px 0;
   display: flex;
 }
