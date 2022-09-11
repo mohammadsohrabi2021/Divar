@@ -1,8 +1,8 @@
+@use 'Variables';
 .main__body {
   display: flex;
   justify-content: center;
   .main {
-    color: rgba(0,0,0,.87);
     width: 100%;
     display: flex;
     flex-direction: row-reverse;
@@ -16,10 +16,10 @@
       .menu__sidebar {
         list-style-type: none;
         cursor: pointer;
-        color: rgba(0,0,0,.56);
+        color: Variables.$text-dark;
       }
       .menu__sidebar li:hover{
-        color: rgba(0,0,0,.87);
+        color: Variables.$bg-hover-menu;
       }
     }
     .main__card {

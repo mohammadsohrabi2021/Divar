@@ -1,9 +1,15 @@
+@font-face {
+  font-family: iransan;
+  src: url("IRANSansWeb.cb28c938.ttf"), url("IRANSansWeb.5d3f8137.woff"), url("IRANSansWeb.ef6ceb0f.woff2"), url("IRANSansWeb.f2603332.eot");
+}
+
 .header {
   height: 64px;
   width: 100%;
   z-index: 99;
-  color: #0000008f;
+  color: #747474;
   background-color: #fff;
+  font-family: iransan;
   position: fixed;
   box-shadow: 0 1px 2px #0000001f;
 }
@@ -17,6 +23,7 @@
 .header .navbar .right {
   flex-direction: row-reverse;
   align-items: center;
+  font-size: 13px;
   display: flex;
 }
 
@@ -35,41 +42,52 @@
 
 .header .navbar .right .navbar__location {
   cursor: pointer;
-  background-color: #eecccc4d;
   border-radius: 2px;
-  gap: 13px;
+  align-items: center;
+  gap: 10px;
   padding: 11px 15px;
   transition: all .5s;
   display: flex;
 }
 
+.header .navbar .right .navbar__location .icon__location {
+  font-size: 18px !important;
+}
+
+.header .navbar .right .navbar__location:hover {
+  color: #0000008f;
+  background-color: #f5f5f5;
+}
+
 .header .navbar .right .navbar__Grouping {
   cursor: pointer;
-  width: 90px;
+  width: 80px;
   border-radius: 2px;
   justify-content: center;
   align-items: center;
-  gap: 13px;
-  margin: 10px 30px 10px 10px;
+  gap: 10px;
+  margin-right: 30px;
   padding: 11px 0;
   transition: all .5s;
   display: flex;
 }
 
 .header .navbar .right .navbar__Grouping .icon__down {
-  font-size: 12px;
+  font-size: 13px;
 }
 
 .header .navbar .right .navbar__Grouping:hover {
-  color: #000;
-  background-color: #eecccc4d;
+  color: #0000008f;
+  background-color: #f5f5f5;
 }
 
 .header .navbar .right .navbar__Search {
+  margin-right: 10px;
   position: relative;
 }
 
 .header .navbar .right .navbar__Search .icon__search {
+  color: #aaa;
   font-size: 13px;
   position: absolute;
   top: 12px;
@@ -78,7 +96,7 @@
 
 .header .navbar .right .navbar__Search .search {
   width: 35vw;
-  background-color: #eecccc4d;
+  background-color: #f5f5f5;
   border: 0;
   border-radius: 3px;
   outline: 0;
@@ -86,11 +104,16 @@
   font-size: 17px;
 }
 
+.header .navbar .right .navbar__Search .search::-webkit-input-placeholder {
+  color: #aaa;
+}
+
 .header .navbar .left {
   width: 100%;
   flex-direction: row-reverse;
   align-items: center;
   gap: 10px;
+  font-size: 12px;
   display: flex;
 }
 
@@ -100,9 +123,9 @@
   background-color: #a62626;
   border: 0;
   border-radius: 3px;
-  padding: 10px 23px;
+  padding: 12px 23px;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: bolder;
   transition: all .5s;
 }
 
@@ -118,13 +141,14 @@
 }
 
 .header .navbar .left .navbar__Support:hover {
-  color: #000;
-  background-color: #eecccc4d;
+  color: #0000008f;
+  background-color: #f5f5f5;
 }
 
 .header .navbar .left .navbar__chat {
   cursor: pointer;
   border-radius: 3px;
+  align-items: center;
   gap: 10px;
   padding: 10px 15px;
   transition: all .5s;
@@ -132,13 +156,14 @@
 }
 
 .header .navbar .left .navbar__chat:hover {
-  color: #000;
-  background-color: #eecccc4d;
+  color: #0000008f;
+  background-color: #f5f5f5;
 }
 
 .header .navbar .left .navbar__profile {
   cursor: pointer;
   border-radius: 3px;
+  align-items: center;
   gap: 10px;
   padding: 10px;
   transition: all .5s;
@@ -146,8 +171,12 @@
 }
 
 .header .navbar .left .navbar__profile:hover {
-  color: #000;
-  background-color: #eecccc4d;
+  color: #0000008f;
+  background-color: #f5f5f5;
+}
+
+.header .navbar .left .icon {
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=index.ebe33d55.css.map */

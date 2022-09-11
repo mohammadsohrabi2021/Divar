@@ -1,10 +1,14 @@
+@font-face {
+  font-family: iransan;
+  src: url("IRANSansWeb.cb28c938.ttf"), url("IRANSansWeb.5d3f8137.woff"), url("IRANSansWeb.ef6ceb0f.woff2"), url("IRANSansWeb.f2603332.eot");
+}
+
 .main__body {
   justify-content: center;
   display: flex;
 }
 
 .main__body .main {
-  color: #000000de;
   width: 100%;
   flex-direction: row-reverse;
   margin-top: 100px;

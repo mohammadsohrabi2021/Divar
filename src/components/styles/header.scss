@@ -1,11 +1,13 @@
+@use 'Variables';
 .header{
+    font-family: iransan;
     box-shadow: 0 1px 2px 0 rgb(0 0 0 / 12%);
     height: 64px;
     width: 100%;
     position: fixed;
-    background-color: #fff;
+    background-color:Variables.$bg-white;
     z-index: 99;
-    color: rgba(0,0,0,.56);
+    color: Variables.$text-gray50;
     .navbar{
     width: 100%;
     display: flex;
@@ -14,6 +16,7 @@
         display: flex;
         align-items: center;
         flex-direction: row-reverse;
+        font-size: 13px;
         .navbar__logo{
             margin-left: 5px;
             img{
@@ -25,37 +28,46 @@
             rotate: (90deg);
         }
         .navbar__location{
+            display: flex;
+            align-items: center;
             cursor: pointer;
             display: flex;
-            gap: 13px;
+            gap: 10px;
             border-radius: 2px;
             padding: 11px 15px;
             transition: all 0.5s;
-            background-color: rgba(238, 204, 204, 0.3);
+            .icon__location{
+                font-size: 18px !important;
+            }
+        }
+        .navbar__location:hover{
+            background-color:Variables.$bg-hover;
+            color: Variables.$text-dark;
         }
         .navbar__Grouping{
             cursor: pointer;
             transition: all 0.5s;
             padding: 11px 0;
-            margin: 10px;
             border-radius: 2px;
-            width: 90px;
+            width: 80px;
             display: flex;
             align-items: center;
             justify-content: center;
             margin-right: 30px;
-            gap: 13px;
+            gap: 10px;
             .icon__down{
-                font-size: 12px;
+                font-size: 13px ;
             }
         }
         .navbar__Grouping:hover{
-            background-color: rgba(238, 204, 204, 0.3);
-            color: #000;
+            background-color:Variables.$bg-hover;
+            color: Variables.$text-dark;
         }
         .navbar__Search{
             position: relative;
+            margin-right: 10px;
             .icon__search{
+                color: Variables.$text-muted;
                 position: absolute;
                 top: 12px;
                 right:12px;
@@ -67,9 +79,14 @@
                 width: 35vw;
                 outline: 0;
                 border: 0;
-                background-color: rgba(238, 204, 204, 0.3);
+                background-color: Variables.$bg-search-box;
                 border-radius: 3px;
             }
+            .search::-webkit-input-placeholder
+            { 
+                color: Variables.$text-muted;
+            }
+            
         }
     }
     .left{
@@ -78,16 +95,17 @@
         flex-direction: row-reverse;
         align-items: center;
         gap: 10px;
+        font-size: 12px;
         .navbar__btn{
            button{
             transition: all 0.5s;
             cursor: pointer;
-            padding: 10px 23px;
+            padding: 12px 23px;
             border: 0;
             border-radius: 3px;
             background-color: #a62626;
             color: #fff;
-            font-weight: 600;
+            font-weight: bolder;
             font-size: 16px;
            }
            button:hover{
@@ -101,10 +119,12 @@
             border-radius: 3px;
         }
         .navbar__Support:hover{
-            background-color: rgba(238, 204, 204, 0.3);
-            color: #000;
+            background-color: Variables.$bg-hover;
+            color: Variables.$text-dark;
         }
         .navbar__chat{
+            display: flex;
+            align-items: center;
             transition: all 0.5s;
             display: flex;
             gap: 10px;
@@ -113,10 +133,12 @@
             border-radius: 3px;
         }
         .navbar__chat:hover{
-            background-color: rgba(238, 204, 204, 0.3);
-            color: #000;
+            background-color: Variables.$bg-hover;
+            color: Variables.$text-dark;
         }
         .navbar__profile{
+            display: flex;
+            align-items: center;
             transition: all 0.5s;
             display: flex;
             gap: 10px;
@@ -125,8 +147,11 @@
             border-radius: 3px;
         }
         .navbar__profile:hover{
-            background-color: rgba(238, 204, 204, 0.3);
-            color: #000;
+            background-color: Variables.$bg-hover;
+            color: Variables.$text-dark;
+        }
+        .icon{
+            font-size: 15px;
         }
       
     }

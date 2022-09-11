@@ -1,8 +1,20 @@
-$text-dark: #000000;
+@font-face {
+    font-family: 'iransan';
+    src: url(../fonts/IRANSansWeb.ttf),
+    url(../fonts/IRANSansWeb.woff),
+    url(../fonts/IRANSansWeb.woff2),
+    url(../fonts/IRANSansWeb.eot)
+}
+
+$text-dark: rgba(0,0,0,.56);
 $text-secondary: gray;
 $text-danger:#a62626;
 $text-gray:#f5f5f5;
 $text-gray80:#989898;
-$tect-muted:#aaaaaa;
+$text-muted:#aaaaaa;
 $text-gray50:#747474;
 $text-gray40:#717171;
+$bg-white:#fff;
+$bg-hover:#f5f5f5;
+$bg-search-box:#f5f5f5;
+$bg-hover-menu: rgba(0,0,0,.87);
