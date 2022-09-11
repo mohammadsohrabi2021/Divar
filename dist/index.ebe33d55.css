@@ -17,32 +17,42 @@
 .header .navbar .right {
   flex-direction: row-reverse;
   align-items: center;
-  gap: 35px;
   display: flex;
 }
 
 .header .navbar .right .navbar__logo {
   cursor: context-menu;
+  margin-left: 15px;
 }
 
 .header .navbar .right .navbar__logo img {
-  width: 55px;
+  width: 45px;
 }
 
 .header .navbar .right .navbar__location {
-  gap: 10px;
+  gap: 13px;
+  margin: 0 28px;
   display: flex;
 }
 
 .header .navbar .right .navbar__Grouping {
-  width: 70px;
+  width: 80px;
+  border-radius: 2px;
+  justify-content: center;
   align-items: center;
   gap: 13px;
+  margin-left: 10px;
+  margin-right: 20px;
+  padding: 7px 0;
   display: flex;
 }
 
 .header .navbar .right .navbar__Grouping .icon__down {
   font-size: 12px;
+}
+
+.header .navbar .right .navbar__Grouping:hover {
+  background-color: red;
 }
 
 .header .navbar .right .navbar__Search {

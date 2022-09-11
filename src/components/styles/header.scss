@@ -14,25 +14,36 @@
         display: flex;
         align-items: center;
         flex-direction: row-reverse;
-        gap:35px;
+        // gap:30px;
         .navbar__logo{
+            margin-left: 15px;
             cursor: context-menu;
             img{
-                width: 55px;
+                width: 45px;
             }
         }
         .navbar__location{
             display: flex;
-            gap: 10px;
+            gap: 13px;
+            margin: 0 28px;
         }
         .navbar__Grouping{
-            width: 70px;
+            padding: 7px 0;
+            margin-left: 10px;
+            border-radius: 2px;
+            width: 80px;
             display: flex;
             align-items: center;
+            justify-content: center;
+            margin-right: 20px;
             gap: 13px;
             .icon__down{
                 font-size: 12px;
             }
+        }
+        .navbar__Grouping:hover{
+            background-color: red;
+
         }
         .navbar__Search{
             position: relative;
