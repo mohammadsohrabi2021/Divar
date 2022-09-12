@@ -10,6 +10,8 @@
     position: relative;
     margin-top: 90px;
     .main__sidebar {
+      max-height: 100%;
+      overflow-y: auto;
       width: 21%;
       line-height: 2.8;
       position: fixed;
@@ -91,7 +93,10 @@
         }
       }
       .logo__Standard{
-        margin-top: 50px;
+        margin: 50px 0 120px 0;
+        display: flex;
+        justify-content: end;
+        gap: 5px;
        img{
         cursor: pointer;
         width: 80px;
