@@ -18,18 +18,18 @@
 }
 
 .main__body .main .main__sidebar {
-  max-height: 100%;
   width: 21%;
+  max-height: 100%;
   line-height: 2.8;
   position: fixed;
   right: 15px;
-  overflow-y: auto;
+  overflow-y: scroll;
 }
 
 .main__body .main .main__sidebar .menu__sidebar {
   cursor: pointer;
   color: #0000008f;
-  list-style-type: none;
+  list-style-type: bl;
 }
 
 .main__body .main .main__sidebar .menu__sidebar .item {
@@ -126,6 +126,10 @@
 .main__body .main .main__sidebar .logo__Standard img {
   cursor: pointer;
   width: 80px;
+}
+
+.main__body .main .main__sidebar::-webkit-scrollbar {
+  display: none;
 }
 
 .main__body .main .main__card {

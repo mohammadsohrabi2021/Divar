@@ -10,14 +10,14 @@
     position: relative;
     margin-top: 90px;
     .main__sidebar {
-      max-height: 100%;
-      overflow-y: auto;
       width: 21%;
       line-height: 2.8;
       position: fixed;
       right: 15px;
+      overflow-y: scroll;
+      max-height: 100%;
       .menu__sidebar {
-        list-style-type: none;
+        list-style-type: bl;
         cursor: pointer;
         color: Variables.$text-dark;
         .item{
@@ -103,6 +103,9 @@
        }
       }
     }
+    .main__sidebar::-webkit-scrollbar {
+      display: none;
+  }
     .main__card {
       font-size: 12px;
       display: flex;
